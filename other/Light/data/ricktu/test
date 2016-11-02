@@ -1,0 +1,1 @@
+{"objs":[{"type":"radiant","x":455,"y":320,"p":0.5},{"type":"mirror","p1":{"type":"xxa","x":405,"y":279,"exist":true},"p2":{"type":"xxa","x":408,"y":432,"exist":true}},{"type":"mirror","p1":{"type":"xxa","x":511,"y":266,"exist":true},"p2":{"type":"xxa","x":518,"y":442,"exist":true}}],"mode":"light","rayDensity_light":0.1,"rayDensity_images":1}

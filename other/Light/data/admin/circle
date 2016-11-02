@@ -1,0 +1,1 @@
+{"objs":[{"type":"refractor","path":[{"x":312,"y":415,"arc":false},{"x":404,"y":263,"arc":true},{"x":311,"y":414,"arc":false}],"notDone":false,"p":1.5},{"type":"parallel","p1":{"type":"xxa","x":0,"y":106,"exist":true},"p2":{"type":"xxa","x":0,"y":623,"exist":true},"p":0.5}],"mode":"light","rayDensity_light":2.983806994135024,"rayDensity_images":1}

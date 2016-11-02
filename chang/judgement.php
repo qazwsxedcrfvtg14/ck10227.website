@@ -1,0 +1,30 @@
+<?
+error_reporting(E_ERROR);
+if(!ini_get('register_globals')){
+	extract($_POST);
+	extract($_GET);
+	extract($_SERVER);
+	extract($_FILES);
+   	extract($_ENV);
+   	extract($_COOKIE);
+   	if(isset($_SESSION)){
+       	extract($_SESSION);
+   		}
+	}
+?><?php
+if($judger=="judgement"&&$judgerpass=="MisakaMikoto"){
+	$que=file("queue");
+	$lines=count($que);
+	if($que[0]!=""&&$que[0]!="\n"){
+		echo $que[0];
+		$str="";
+		for($tmp=1;$tmp<$lines;$tmp++){
+			$str.=$que[$tmp];
+			}
+		file_put_contents("queue",$str,LOCK_EX);
+		}
+	}
+else{
+//echo -1;	
+}
+?>

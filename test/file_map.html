@@ -1,0 +1,79 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>網路硬碟</title>
+<script type='text/javascript'>
+  parent.document.getElementById('title').innerHTML=document.title;
+parent.document.getElementById('top_a1').href="html/upload.php";
+parent.document.getElementById('top_bt1').className="top_bt";
+parent.document.getElementById('top_bt1').innerHTML="網頁上傳";
+parent.document.getElementById('top_a2').href="html/uploader1.php";
+parent.document.getElementById('top_bt2').className="top_bt";
+parent.document.getElementById('top_bt2').innerHTML="拖曳上傳";
+parent.document.getElementById('top_a3').href="html/download.php";
+parent.document.getElementById('top_bt3').className="top_bt";
+parent.document.getElementById('top_bt3').innerHTML="檔案下載";
+parent.document.getElementById('top_a4').href="test/file_map.html";
+parent.document.getElementById('top_bt4').className="top_bt_on";
+parent.document.getElementById('top_bt4').innerHTML="個人空間";
+window.onbeforeunload = function(){
+parent.document.getElementById('top_a1').href="";
+parent.document.getElementById('top_bt1').className="";
+parent.document.getElementById('top_bt1').innerHTML="";
+parent.document.getElementById('top_a2').href="";
+parent.document.getElementById('top_bt2').className="";
+parent.document.getElementById('top_bt2').innerHTML="";
+parent.document.getElementById('top_a3').href="";
+parent.document.getElementById('top_bt3').className="";
+parent.document.getElementById('top_bt3').innerHTML="";
+parent.document.getElementById('top_a4').href="";
+parent.document.getElementById('top_bt4').className="";
+parent.document.getElementById('top_bt4').innerHTML="";
+};
+</script>
+<link rel="stylesheet" type="text/css" href="./BS.css">
+  <style type="text/css">
+html { 
+/*overflow-y:hidden;
+overflow-x:hidden;*/
+margin:0px;
+padding:0px;
+height:100%;
+width:100%;
+}
+    body{
+margin:0px;
+padding:0px;
+height:100%;
+width:100%;
+    }
+div.bbox{
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    position:fixed;
+	margin:0px;
+  	top:0px;
+  	left:0px;
+}
+</style>
+
+</head>
+<body>
+<div class="bbox" style="padding:0px 0px 0px 200px;width:100%;height:100%;">
+  <iframe id="mapf" name="map" src="map.php" border="0" frameborder="0" height="100%" width="100%">
+您的瀏覽器不支援內置框架或目前的設定為不顯示內置框架。
+</iframe>
+</div>
+
+<div class="bbox" style="padding:0px;width:200px;height:100%;">
+  <iframe id="treef" name="tree" src="tree.php" border="0" frameborder="0" height="100%" width="100%">
+您的瀏覽器不支援內置框架或目前的設定為不顯示內置框架。
+</iframe></div>
+
+
+
+
+
+</body>
+</html>

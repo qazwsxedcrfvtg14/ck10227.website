@@ -1,0 +1,1 @@
+{"objs":[{"type":"lens","p1":{"type":"xxa","x":620,"y":200,"exist":true},"p2":{"type":"xxa","x":620,"y":420,"exist":true},"p":100},{"type":"radiant","x":520,"y":320,"p":0.5}],"mode":"light","rayDensity_light":0.1,"rayDensity_images":1}

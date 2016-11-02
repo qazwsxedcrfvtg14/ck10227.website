@@ -1,0 +1,1 @@
+{"objs":[{"type":"arcmirror","p1":{"type":"xxa","x":510,"y":208,"exist":true},"p2":{"type":"xxa","x":625,"y":375,"exist":true},"p3":{"type":"xxa","x":613,"y":307,"exist":true}},{"type":"laser","p1":{"type":"xxa","x":542,"y":282,"exist":true},"p2":{"type":"xxa","x":670,"y":241,"exist":true}}],"mode":"light","rayDensity_light":0.1,"rayDensity_images":1}

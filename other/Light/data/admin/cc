@@ -1,0 +1,1 @@
+{"objs":[{"type":"refractor","path":[{"x":965,"y":592,"arc":false},{"x":960,"y":339,"arc":true},{"x":961,"y":594,"arc":false}],"notDone":false,"p":1.5},{"type":"laser","p1":{"type":"xxa","x":674,"y":484,"exist":true},"p2":{"type":"xxa","x":853,"y":383,"exist":true}}],"mode":"light","rayDensity_light":20.085536923187668,"rayDensity_images":1}

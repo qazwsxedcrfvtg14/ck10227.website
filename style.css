@@ -1,0 +1,70 @@
+﻿@charset "utf-8";
+body,td{
+padding:0px;
+margin:0px;
+font-size:12px;
+font-family:"微軟正黑體","Verdana";
+color:#111111;
+overflow:hidden;
+scrollbar-face-color : #D8DBDF;
+scrollbar-highlight-color : #FFFFFF;
+scrollbar-shadow-color : #C1C6CC;
+scrollbar-3dlight-color : #ABB1B3;
+scrollbar-arrow-color : #7F8996;
+scrollbar-track-color : #F8FAF9;
+scrollbar-darkshadow-color : #ABB1B3
+}
+body {
+TEXT-ALIGN: center;
+}
+img{border:0px;}
+#main {
+TEXT-ALIGN: left;
+width:923px;
+margin-right: auto;
+margin-left: auto;
+position:relative;
+height:576px!important;
+}
+#left {
+	float : left;
+	position:relative;
+	left:0px;
+	top:0px;
+	width:293px;
+	height:576px!important;
+	background:url('../menubg.gif');
+}
+#right {
+	float : right;
+	position:relative;
+	left:0px;
+	top:17px;
+	width:630px;
+	height:583px!important;
+	background:url('../bodybg.gif');
+	background-color:#f1f1f1;
+}
+#menu {
+	position:absolute;
+	left:133px;
+	top:42px;
+}
+#menu .callink img{
+filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+-moz-opacity: 0;
+border:0;
+}
+#menu .callink:hover img{
+filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+-moz-opacity: 1;
+}
+blockquote {
+margin-left:40px;
+margin-top:10px;
+margin-bottom:30px;
+}
+
+a:link{text-decoration: none; color: 000000 }
+a:visited{ text-decoration: none;  color: 000000 }
+a:hover{ text-decoration: underline; color:acc393}

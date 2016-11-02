@@ -1,0 +1,42 @@
+0
+geogebra.html
+GeoGebra
+0
+Tscore.php
+T分數計算
+0
+log.php
+log計算
+0
+depow.php
+大數開根號計算
+0
+Rand.php
+亂數座號生成
+0
+Light/light.php
+光線模擬(由Rick Tu提供)
+1
+https://chrome.google.com/webstore/detail/ray-optics-simulation/egamlemiidmmmcccadndbjjihkcfiobh
+光線模擬(Google App)
+0
+../tul/tul.php
+縮網址
+0
+gourl.php
+GoURL
+0
+../msg/st.php
+發送訊息
+0
+../test/youtube/index.php
+Youtube Downloader
+0
+ZTerm.php
+Zterm
+0
+time2.php
+現在時間
+0
+../broad/form.php
+學區查詢
