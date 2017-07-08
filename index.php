@@ -482,7 +482,7 @@ function set(sid){
     <!--<a href="" target="_blank" id="main_a"><div class="now_bt" id="now_bt"></div></a>-->
     <div class="start" id="start" onMouseover="if(ison!=1)open_left('left');" onclick="if(moving==0)if(ison==1){off_left('left');}else{open_left('left');}">開始</div>
     <div class="msg" id="msg" onclick="if(moving==0)if(ison==1){off_left('msg_left');}else{open_left('msg_left');}">[0]</div>
-    <div class="lock" id="lock"><a href="setlock.php?slock=1"><img onMouseover="this.src='pic/web/lock';" onMouseout="this.src='pic/web/unlock';" src="pic/web/unlock" height="20" style="border:0"></a></div>
+    <div class="lock" id="lock"><a href="setlock.php?slock=1"><img onMouseover="this.src='pic/web/lock.php';" onMouseout="this.src='pic/web/unlock.php';" src="pic/web/unlock.php" height="20" style="border:0"></a></div>
     <a id="top_a1" target="main"><div id="top_bt1" style="left:150px;"></div></a>
     <a id="top_a2" target="main"><div id="top_bt2" style="left:250px;"></div></a>
     <a id="top_a3" target="main"><div id="top_bt3" style="left:350px;"></div></a>
